@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="RootPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.MainLandingController">
+   <children>
+      <Label fx:id="OutputPanel" layoutY="80.0" prefHeight="53.0" prefWidth="602.0" text="                       No Input!" textFill="#8f766a">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="BinaryButton" layoutX="-1.0" layoutY="175.0" mnemonicParsing="false" onAction="#BinaryButton" prefHeight="46.0" prefWidth="281.0" text="Binary" textFill="#63362e">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="OctalButton" layoutX="278.0" layoutY="175.0" mnemonicParsing="false" onAction="#OctalButton" prefHeight="46.0" prefWidth="326.0" text="Octal">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="HexaDecimalButton" layoutX="-1.0" layoutY="221.0" mnemonicParsing="false" onAction="#HexaDecimalButton" prefHeight="46.0" prefWidth="282.0" text="HexaDecimal" textFill="#5e514d">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="NextScreenButton" layoutX="283.0" layoutY="221.0" mnemonicParsing="false" onAction="#NextScreenButton" prefHeight="46.0" prefWidth="320.0" text="Next Screen" textFill="#613a28">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="exitButton" layoutX="-1.0" layoutY="267.0" mnemonicParsing="false" onAction="#exitButton" prefHeight="46.0" prefWidth="282.0" text="Exit" textFill="#6e3c31">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="ClearButton" layoutX="283.0" layoutY="267.0" mnemonicParsing="false" onAction="#ClearButton" prefHeight="46.0" prefWidth="320.0" text="Clear" textAlignment="CENTER" textFill="#79554a">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField layoutX="7.0" layoutY="14.0" />
+      <TextField fx:id="Userinput" layoutX="-2.0" layoutY="14.0" onAction="#Userinput" prefHeight="66.0" prefWidth="604.0" />
+   </children>
+</AnchorPane>
